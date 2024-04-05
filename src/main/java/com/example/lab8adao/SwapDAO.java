@@ -5,7 +5,7 @@ import com.example.lab8adao.DAO.EquipFileDAO;
 import com.example.lab8adao.infrastructure.IEquipDAO;
 
 public class SwapDAO {
-    private static final String DataBase = "db";
+    public static final String DataBase = "db";
     public static final String File = "file";
 
     public static IEquipDAO createTaskDAO(String type){

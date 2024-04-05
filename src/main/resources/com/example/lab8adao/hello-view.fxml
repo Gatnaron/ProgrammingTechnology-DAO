@@ -4,7 +4,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<HBox alignment="CENTER" prefHeight="247.0" prefWidth="442.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab8adao.HelloController">
+<HBox alignment="CENTER" prefHeight="287.0" prefWidth="442.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab8adao.HelloController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
@@ -22,6 +22,9 @@
             <Label text="status" />
                 <TextField fx:id="status" prefHeight="25.0" prefWidth="133.0" />
                 <Button fx:id="addButton" mnemonicParsing="false" onAction="#addButtonHandler" prefHeight="25.0" prefWidth="122.0" text="Добавить" />
+            <Label text="Изменить " />
+            <ComboBox fx:id="CBSwap" onInputMethodTextChanged="#changeValueComboBoxHandler" prefWidth="150.0" />
+            <Button fx:id="ButtonUpDAO" mnemonicParsing="false" onAction="#ButtonUpDAO" prefHeight="26.0" prefWidth="106.0" text="Button" />
             </children>
         </VBox>
     </children>
